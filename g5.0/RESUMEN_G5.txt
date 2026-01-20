@@ -4,10 +4,10 @@ RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY (G5)
 ================================================================================
 
 📊 PERFORMANCE:
-  • Test Accuracy:       0.8333
-  • Macro F1-Score:      0.7539
-  • Top-3 Accuracy:      0.9540
-  • Test Loss:           1.1790
+  • Test Accuracy:       0.0402
+  • Macro F1-Score:      0.0051
+  • Top-3 Accuracy:      0.0920
+  • Test Loss:           3.4110
 
 🏗️ ARQUITECTURA:
   • Modelo:              Transformer Encoder-Only (NO decoder)
@@ -23,8 +23,8 @@ RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY (G5)
   • Optimizer:           AdamW (lr=1e-4, weight_decay=1e-4)
   • Loss Function:       CrossEntropyLoss (label_smoothing=0.1)
   • Batch Size:          8 (GPU: GTX 1660 Super 6GB)
-  • Epochs Totales:      47
-  • Best Epoch:          39 (Val Acc: 0.8417)
+  • Epochs Totales:      0
+  • Best Epoch:          0 (Val Acc: 0.0000)
   • Early Stopping:      Sí (patience=8)
   • Gradient Clipping:   max_norm=1.0
 

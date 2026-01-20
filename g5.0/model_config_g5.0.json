@@ -22,10 +22,10 @@
   "early_stopping_patience": 8,
   "gradient_clip": 1.0,
   "device": "cuda",
-  "best_epoch": 39,
-  "best_val_acc": 0.841726618705036,
-  "test_accuracy": 0.8333333333333334,
-  "test_macro_f1": 0.753853834981286,
-  "test_top3_accuracy": 0.9540229885057471,
-  "training_timestamp": "2026-01-19T23:08:46.991219"
+  "best_epoch": 0,
+  "best_val_acc": 0.0,
+  "test_accuracy": 0.040229885057471264,
+  "test_macro_f1": 0.005076305220883534,
+  "test_top3_accuracy": 0.09195402298850575,
+  "training_timestamp": "2026-01-19T23:27:39.314274"
 }
