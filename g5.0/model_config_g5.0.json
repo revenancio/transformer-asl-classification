@@ -24,8 +24,8 @@
   "device": "cuda",
   "best_epoch": 0,
   "best_val_acc": 0.0,
-  "test_accuracy": 0.040229885057471264,
-  "test_macro_f1": 0.005076305220883534,
-  "test_top3_accuracy": 0.09195402298850575,
-  "training_timestamp": "2026-01-19T23:27:39.314274"
+  "test_accuracy": 0.034482758620689655,
+  "test_macro_f1": 0.006962100354362346,
+  "test_top3_accuracy": 0.10919540229885058,
+  "training_timestamp": "2026-01-22T13:10:50.033410"
 }

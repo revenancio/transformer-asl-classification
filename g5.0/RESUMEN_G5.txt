@@ -4,10 +4,10 @@ RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY (G5)
 ================================================================================
 
 📊 PERFORMANCE:
-  • Test Accuracy:       0.0402
-  • Macro F1-Score:      0.0051
-  • Top-3 Accuracy:      0.0920
-  • Test Loss:           3.4110
+  • Test Accuracy:       0.0345
+  • Macro F1-Score:      0.0070
+  • Top-3 Accuracy:      0.1092
+  • Test Loss:           3.4123
 
 🏗️ ARQUITECTURA:
   • Modelo:              Transformer Encoder-Only (NO decoder)
