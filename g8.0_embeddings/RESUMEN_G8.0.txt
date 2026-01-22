@@ -1,0 +1,54 @@
+
+================================================================================
+RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY CON SEQUENTIAL EMBEDDINGS
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.9138
+  • Macro F1-Score:      0.8736
+  • Top-3 Accuracy:      0.9943
+  • Test Loss:           0.9225
+
+🏗️ ARQUITECTURA:
+  • Modelo:              Transformer Encoder-Only (NO decoder)
+  • Dataset:             Sequential Embeddings
+  • Input Features:      128 (sequential embeddings)
+  • Sequence Length:     96 frames
+  • Embedding Dim:       256
+  • Attention Heads:     4
+  • Encoder Layers:      4
+  • Total Parameters:    2,203,294
+  • Trainable Params:    2,203,294
+
+⚙️ ENTRENAMIENTO:
+  • Optimizer:           AdamW (lr=1e-4, weight_decay=1e-4)
+  • Loss Function:       CrossEntropyLoss (label_smoothing=0.1)
+  • Batch Size:          8
+  • Epochs Totales:      40
+  • Best Epoch:          31 (Val Acc: 0.9496)
+  • Early Stopping:      Sí (patience=8)
+  • Gradient Clipping:   max_norm=1.0
+
+🎯 CARACTERÍSTICAS CLAVE:
+  1. ✓ Proyección inicial: 128 → 256 (sequential embeddings)
+  2. ✓ Positional Encoding aprendible (no sinusoidal)
+  3. ✓ Masked Multi-Head Attention (src_key_padding_mask)
+  4. ✓ Activación GELU en feedforward
+  5. ✓ Masked mean pooling para representación global
+  6. ✓ Clasificador MLP con dropout (0.2)
+  7. ✓ Label smoothing (ε=0.1) para regularización
+  8. ✓ Máscaras por muestra (variable sequence lengths)
+
+💾 OUTPUTS GENERADOS:
+  ✓ model_weights_g8.0.pt         - Pesos del mejor modelo
+  ✓ best_model.pt                 - Checkpoint del mejor modelo
+  ✓ model_config_g8.0.json        - Configuración completa
+  ✓ results_g8.0.csv              - Métricas principales
+  ✓ per_class_g8.0.csv            - Métricas por clase
+  ✓ confusion_g8.0.csv            - Matriz de confusión
+  ✓ training_log_g8.0.csv         - Log de entrenamiento
+  ✓ training_curves_g8.0.png      - Gráficos de loss/accuracy
+  ✓ confusion_matrix_g8.0.png     - Visualización matriz confusión
+  ✓ per_class_analysis_g8.0.png   - Análisis por clase
+
+================================================================================
