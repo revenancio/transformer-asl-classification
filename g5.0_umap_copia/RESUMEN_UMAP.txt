@@ -1,0 +1,61 @@
+
+================================================================================
+RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY CON UMAP EMBEDDINGS (COPIA)
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.1724
+  • Macro F1-Score:      0.0327
+  • Top-3 Accuracy:      0.2701
+  • Test Loss:           3.2317
+
+🏗️ ARQUITECTURA:
+  • Modelo:              Transformer Encoder-Only (NO decoder)
+  • Dataset:             UMAP Embeddings (reducción de dimensionalidad)
+  • Input Features:      300 (UMAP embeddings)
+  • Sequence Length:     96 frames
+  • Embedding Dim:       256
+  • Attention Heads:     4
+  • Encoder Layers:      4
+  • Total Parameters:    2,247,326
+  • Trainable Params:    2,247,326
+
+⚙️ ENTRENAMIENTO:
+  • Optimizer:           AdamW (lr=1e-4, weight_decay=1e-4)
+  • Loss Function:       CrossEntropyLoss (label_smoothing=0.1)
+  • Batch Size:          8 (GPU: GTX 1660 Super 6GB)
+  • Epochs Totales:      14
+  • Best Epoch:          5 (Val Acc: 0.1655)
+  • Early Stopping:      Sí (patience=8)
+  • Gradient Clipping:   max_norm=1.0
+
+🎯 CARACTERÍSTICAS CLAVE:
+  1. ✓ Proyección inicial: input_dim → 256 (UMAP embeddings)
+  2. ✓ Positional Encoding aprendible (no sinusoidal)
+  3. ✓ Masked Multi-Head Attention (src_key_padding_mask)
+  4. ✓ Activación GELU en feedforward
+  5. ✓ Masked mean pooling para representación global
+  6. ✓ Clasificador MLP con dropout (0.2)
+  7. ✓ Label smoothing (ε=0.1) para regularización
+  8. ✓ Máscaras por muestra (variable sequence lengths)
+
+📈 VENTAJAS UMAP EMBEDDINGS:
+  • Reducción de dimensionalidad y compresión de features
+  • Preservación de geometría local y global
+  • Menor carga computacional
+  • Máscaras por muestra nativas (más preciso que global mask)
+  • Mejor generalización con menos features ruidosas
+
+💾 OUTPUTS GENERADOS:
+  ✓ model_weights_umap.pt         - Pesos del mejor modelo
+  ✓ best_model.pt                 - Checkpoint del mejor modelo
+  ✓ model_config_umap.json        - Configuración completa
+  ✓ results_umap.csv              - Métricas principales
+  ✓ per_class_umap.csv            - Métricas por clase
+  ✓ confusion_umap.csv            - Matriz de confusión
+  ✓ training_log_umap.csv         - Log de entrenamiento
+  ✓ training_curves_umap.png      - Gráficos de loss/accuracy
+  ✓ confusion_matrix_umap.png     - Visualización matriz confusión
+  ✓ per_class_analysis_umap.png   - Análisis por clase
+
+================================================================================
