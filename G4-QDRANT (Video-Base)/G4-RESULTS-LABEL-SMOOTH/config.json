@@ -1,0 +1,12 @@
+{
+  "experiment": "G4-QDRANT-Video-Base-LABEL-SMOOTH",
+  "dataset": "dataset_umap_segments.npz",
+  "dropout": 0.3,
+  "class_weights": false,
+  "label_smoothing": 0.1,
+  "best_epoch": 46,
+  "best_val_acc": 0.2517985611510791,
+  "test_accuracy": 0.23563218390804597,
+  "test_macro_f1": 0.05989898974214046,
+  "test_top3_accuracy": 0.5116279069767442
+}

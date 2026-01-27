@@ -1,0 +1,64 @@
+
+================================================================================
+RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY (G4)
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.7529
+  • Macro F1-Score:      0.6598
+  • Top-3 Accuracy:      0.8851
+  • Test Loss:           1.2458
+
+🏗️ ARQUITECTURA:
+  • Modelo:              Transformer Encoder-Only (NO decoder)
+  • Input Features:      228 (hand + pose + face features)
+  • Sequence Length:     96 frames
+  • Embedding Dim:       256
+  • Attention Heads:     4
+  • Encoder Layers:      4
+  • Total Parameters:    2,228,382
+  • Trainable Params:    2,228,382
+
+⚙️ ENTRENAMIENTO:
+  • Optimizer:           AdamW (lr=1e-4, weight_decay=1e-4)
+  • Loss Function:       CrossEntropyLoss (label_smoothing=0.0)
+  • Batch Size:          8 (GPU: GTX 1660 Super 6GB)
+  • Epochs Totales:      50
+  • Best Epoch:          50 (Val Acc: 0.7914)
+  • Early Stopping:      Sí (patience=8)
+  • Gradient Clipping:   max_norm=1.0
+  • Experimento:         BASELINE
+  • Class Weights:       No
+
+🎯 CARACTERÍSTICAS CLAVE:
+  1. ✓ Proyección inicial: 228 → 256
+  2. ✓ Positional Encoding aprendible (no sinusoidal)
+  3. ✓ Masked Multi-Head Attention (src_key_padding_mask)
+  4. ✓ Activación GELU en feedforward
+  5. ✓ Masked mean pooling para representación global
+  6. ✓ Clasificador MLP con dropout (0.1)
+  7. ✓ Label smoothing (ε=0.0) para regularización
+
+📈 JUSTIFICACIÓN ACADÉMICA:
+  • Encoder-only: Adecuado porque la tarea es clasificación global, NO secuencia-a-secuencia
+  • Sin decoder: No hay generación, no hay necesidad de autoregresión
+  • Masked attention: Respeta padding frames (no 96 frames reales en todos los videos)
+  • Mean pooling: Agregación temporal efectiva para tomar decisión global
+  • Positional encoding aprendible: Mejor adaptación a distribución temporal de features
+  • Label smoothing: Reduce overfitting en dataset de 868 muestras
+  • Early stopping: Previene overfitting y optimiza tiempo de cómputo
+
+💾 OUTPUTS GENERADOS (FORMATO G4):
+  ✓ best_model.pt                 - Pesos del mejor modelo
+  ✓ config.json                   - Configuración completa
+  ✓ metrics.csv                   - Métricas principales (Metric,Value)
+  ✓ per_class_metrics.csv         - Métricas por clase
+  ✓ confusion_matrix.csv          - Matriz de confusión
+  ✓ training_log.csv              - Log de entrenamiento
+  ✓ training_curves.png           - Gráficos de loss/accuracy
+  ✓ confusion_matrix.png          - Visualización matriz confusión
+  ✓ per_class_analysis.png        - Análisis por clase
+
+📁 CARPETA DE SALIDA: C:\Users\Los milluelitos repo\Desktop\experimento tesis\transformer-asl-classification\G4-JSON-NORM\G4-RESULTS
+
+================================================================================

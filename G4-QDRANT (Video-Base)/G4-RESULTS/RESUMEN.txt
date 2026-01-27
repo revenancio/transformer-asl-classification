@@ -1,0 +1,51 @@
+================================================================================
+RESUMEN EJECUTIVO - G4-QDRANT-Video-Base
+================================================================================
+
+DATASET:
+  Archivo: dataset_umap_segments.npz
+  Muestras totales: 868
+  Train/Val/Test: 555/139/174
+  Secuencia: 12 frames
+  Dimensión: 300
+  Clases: 30
+
+ARQUITECTURA:
+  Modelo: TransformerEncoderOnly
+  d_model: 256
+  Num heads: 4
+  Num layers: 4
+  FFN dim: 512
+  Dropout: 0.1
+  Total params: 2,225,822
+
+ENTRENAMIENTO:
+  Optimizer: AdamW
+  Learning rate: 0.0001
+  Batch size: 8
+  Max epochs: 50
+  Early stopping: 8
+  Best epoch: 9
+  Best val accuracy: 0.1295
+
+RESULTADOS TEST:
+  Test Accuracy:    0.1609
+  Macro F1-Score:   0.0285
+  Macro Precision:  0.0175
+  Macro Recall:     0.0853
+  Top-3 Accuracy:   0.4012
+  Test Loss:        nan
+
+================================================================================
+ARCHIVOS GENERADOS (10):
+  1. training_log.csv
+  2. metrics.csv
+  3. per_class_metrics.csv
+  4. confusion_matrix.csv
+  5. config.json
+  6. best_model.pt
+  7. confusion_matrix.png
+  8. training_curves.png
+  9. per_class_analysis.png
+ 10. RESUMEN.txt
+================================================================================

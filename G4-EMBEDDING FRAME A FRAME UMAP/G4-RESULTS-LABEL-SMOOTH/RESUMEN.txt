@@ -1,0 +1,24 @@
+
+================================================================================
+RESUMEN EJECUTIVO - G4-RESULTS-LABEL-SMOOTH
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.5057
+  • Macro F1-Score:      0.2732
+  • Macro Precision:     0.2440
+  • Macro Recall:        0.3449
+  • Top-3 Accuracy:      0.7241
+
+⚙️ CONFIGURACIÓN:
+  • Dropout:             0.3
+  • Class Weights:       Desactivado
+  • Label Smoothing:     0.1
+  • Best Epoch:          48
+
+📈 TOP 5 CLASES (F1-Score):
+  1. Adiós_20_m.json      | F1: 0.9032
+  2. Adiós_19.json        | F1: 0.8333
+  3. Adiós_11.json        | F1: 0.8000
+  4. Adiós_16.json        | F1: 0.7692
+  5. Adiós_18.json        | F1: 0.7179

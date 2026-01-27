@@ -1,0 +1,26 @@
+
+================================================================================
+RESUMEN EJECUTIVO - G4-RESULTS-CLASS-WEIGHTS
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.9368
+  • Macro F1-Score:      0.9202
+  • Macro Precision:     0.9550
+  • Macro Recall:        0.9119
+  • Top-3 Accuracy:      0.9770
+
+⚙️ CONFIGURACIÓN:
+  • Dropout:             0.3
+  • Class Weights:       Activado (balanced)
+  • Label Smoothing:     0.0
+  • Best Epoch:          39
+
+📈 TOP 5 CLASES (F1-Score):
+  1. Adiós                | F1: 1.0000
+  2. Compañero            | F1: 1.0000
+  3. Estudiante           | F1: 1.0000
+  4. Leer                 | F1: 1.0000
+  5. Escuchar             | F1: 1.0000
+
+================================================================================

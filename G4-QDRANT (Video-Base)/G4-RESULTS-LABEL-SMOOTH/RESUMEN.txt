@@ -1,0 +1,15 @@
+================================================================================
+EXPERIMENTO 2 - LABEL-SMOOTH
+================================================================================
+Dropout: 0.3
+Class Weights: Desactivado
+Label Smoothing: 0.1
+Best Epoch: 47
+
+RESULTADOS TEST:
+  Test Accuracy:    0.2356
+  Macro F1-Score:   0.0599
+  Macro Precision:  0.0480
+  Macro Recall:     0.0925
+  Top-3 Accuracy:   0.5116
+================================================================================

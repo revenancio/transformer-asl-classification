@@ -1,0 +1,19 @@
+{
+  "experiment_type": "baseline",
+  "architecture": "TransformerEncoderOnly",
+  "input_dim": 300,
+  "d_model": 256,
+  "num_heads": 8,
+  "num_layers": 6,
+  "dim_feedforward": 1024,
+  "dropout": 0.1,
+  "num_classes": 30,
+  "max_seq_len": 96,
+  "use_class_weights": false,
+  "label_smoothing": 0.0,
+  "best_epoch": 8,
+  "best_val_acc": 0.15827338129496402,
+  "test_accuracy": 0.15517241379310345,
+  "test_macro_f1": 0.028475923328658247,
+  "training_timestamp": "2026-01-26T22:06:26.994816"
+}

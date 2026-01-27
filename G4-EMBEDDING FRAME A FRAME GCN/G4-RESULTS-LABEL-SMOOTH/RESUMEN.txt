@@ -1,0 +1,26 @@
+
+================================================================================
+RESUMEN EJECUTIVO - G4-RESULTS-LABEL-SMOOTH
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.9540
+  • Macro F1-Score:      0.9485
+  • Macro Precision:     0.9792
+  • Macro Recall:        0.9374
+  • Top-3 Accuracy:      0.9885
+
+⚙️ CONFIGURACIÓN:
+  • Dropout:             0.3
+  • Class Weights:       No
+  • Label Smoothing:     0.1
+  • Best Epoch:          29
+
+📈 TOP 5 CLASES (F1-Score):
+  1. Por favor            | F1: 1.0000
+  2. Compañero            | F1: 1.0000
+  3. Estudiante           | F1: 1.0000
+  4. Leer                 | F1: 1.0000
+  5. Escuchar             | F1: 1.0000
+
+================================================================================

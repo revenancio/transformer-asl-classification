@@ -1,0 +1,32 @@
+
+================================================================================
+RESUMEN EJECUTIVO - G4-RESULTS-LABEL-SMOOTH
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.7759
+  • Macro F1-Score:      0.6740
+  • Top-3 Accuracy:      0.8851
+  • Test Loss:           1.6766
+
+⚙️ ENTRENAMIENTO:
+  • Experimento:         LABEL-SMOOTH
+  • Class Weights:       No
+  • Label Smoothing:     0.1
+  • Dropout:             0.3
+  • Epochs Totales:      50
+  • Best Epoch:          47 (Val Acc: 0.7626)
+
+💾 OUTPUTS GENERADOS:
+  ✓ best_model.pt
+  ✓ metrics.csv
+  ✓ per_class_metrics.csv
+  ✓ confusion_matrix.csv
+  ✓ confusion_matrix.png
+  ✓ training_log.csv
+  ✓ training_curves.png
+  ✓ per_class_analysis.png
+  ✓ RESUMEN.txt
+
+📁 CARPETA: C:\Users\Los milluelitos repo\Desktop\experimento tesis\transformer-asl-classification\G4-JSON-NORM\G4-RESULTS-LABEL-SMOOTH
+================================================================================

@@ -1,0 +1,15 @@
+================================================================================
+EXPERIMENTO 1 - CLASS-WEIGHTS
+================================================================================
+Dropout: 0.3
+Class Weights: Activado (balanced)
+Label Smoothing: 0.0
+Best Epoch: 26
+
+RESULTADOS TEST:
+  Test Accuracy:    0.1264
+  Macro F1-Score:   0.0398
+  Macro Precision:  0.0381
+  Macro Recall:     0.0735
+  Top-3 Accuracy:   0.3488
+================================================================================
