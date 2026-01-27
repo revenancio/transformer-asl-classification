@@ -4,10 +4,10 @@ RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY CON UMAP EMBEDDINGS
 ================================================================================
 
 📊 PERFORMANCE:
-  • Test Accuracy:       0.6322
-  • Macro F1-Score:      0.4722
-  • Top-3 Accuracy:      0.8736
-  • Test Loss:           1.6139
+  • Test Accuracy:       0.7299
+  • Macro F1-Score:      0.5878
+  • Top-3 Accuracy:      0.8966
+  • Test Loss:           1.4584
 
 🏗️ ARQUITECTURA:
   • Modelo:              Transformer Encoder-Only (NO decoder)
@@ -24,8 +24,8 @@ RESUMEN EJECUTIVO - TRANSFORMER ENCODER-ONLY CON UMAP EMBEDDINGS
   • Optimizer:           AdamW (lr=1e-4, weight_decay=1e-4)
   • Loss Function:       CrossEntropyLoss (label_smoothing=0.1)
   • Batch Size:          8 (GPU: GTX 1660 Super 6GB)
-  • Epochs Totales:      45
-  • Best Epoch:          36 (Val Acc: 0.5755)
+  • Epochs Totales:      50
+  • Best Epoch:          47 (Val Acc: 0.6403)
   • Early Stopping:      Sí (patience=8)
   • Gradient Clipping:   max_norm=1.0
 
