@@ -1,0 +1,24 @@
+
+================================================================================
+RESUMEN EJECUTIVO - G2-RESULTS-LABEL-SMOOTH
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.8728
+  • Macro F1-Score:      0.8244
+  • Macro Precision:     0.8751
+  • Macro Recall:        0.8187
+  • Top-3 Accuracy:      0.9711
+
+⚙️ CONFIGURACIÓN:
+  • Dropout:             0.3
+  • Class Weights:       Desactivado
+  • Label Smoothing:     0.1
+  • Best Epoch:          39
+
+📈 TOP 5 CLASES (F1-Score):
+  1. Adiós\Adiós_1.json_mirror | F1: 1.0000
+  2. Adiós\Adiós_11.json_mirror | F1: 1.0000
+  3. Adiós\Adiós_12.json  | F1: 1.0000
+  4. Adiós\Adiós_12.json_mirror | F1: 1.0000
+  5. Adiós\Adiós_16.json  | F1: 1.0000

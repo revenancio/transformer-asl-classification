@@ -1,0 +1,19 @@
+{
+  "experiment_type": "label_smoothing",
+  "architecture": "TransformerEncoderOnly",
+  "input_dim": 128,
+  "d_model": 256,
+  "num_heads": 8,
+  "num_layers": 6,
+  "dim_feedforward": 1024,
+  "dropout": 0.3,
+  "num_classes": 30,
+  "max_seq_len": 96,
+  "use_class_weights": false,
+  "label_smoothing": 0.1,
+  "best_epoch": 39,
+  "best_val_acc": 0.9568345323741008,
+  "test_accuracy": 0.8728323699421965,
+  "test_macro_f1": 0.8244321373625176,
+  "training_timestamp": "2026-01-30T00:44:35.434524"
+}
