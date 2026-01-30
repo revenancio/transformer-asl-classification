@@ -1,0 +1,19 @@
+{
+  "experiment_type": "class_weights",
+  "architecture": "TransformerEncoderOnly",
+  "input_dim": 300,
+  "d_model": 256,
+  "num_heads": 8,
+  "num_layers": 6,
+  "dim_feedforward": 1024,
+  "dropout": 0.3,
+  "num_classes": 30,
+  "max_seq_len": 96,
+  "use_class_weights": true,
+  "label_smoothing": 0.0,
+  "best_epoch": 5,
+  "best_val_acc": 0.1079136690647482,
+  "test_accuracy": 0.10982658959537572,
+  "test_macro_f1": 0.014247982922681717,
+  "training_timestamp": "2026-01-30T00:16:38.259002"
+}

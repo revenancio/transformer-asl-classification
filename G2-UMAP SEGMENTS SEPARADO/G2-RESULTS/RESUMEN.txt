@@ -1,0 +1,45 @@
+
+================================================================================
+RESUMEN EJECUTIVO - G2-RESULTS
+================================================================================
+
+📊 PERFORMANCE:
+  • Test Accuracy:       0.3353
+  • Macro F1-Score:      0.1088
+  • Macro Precision:     0.0896
+  • Macro Recall:        0.1485
+  • Top-3 Accuracy:      0.5665
+
+🏗️ ARQUITECTURA:
+  • Modelo:              Transformer Encoder-Only
+  • Dataset:             UMAP Embeddings (reducción de dimensionalidad)
+  • Input Features:      300
+  • Sequence Length:     96 frames
+  • Embedding Dim:       256
+  • Attention Heads:     8
+  • Encoder Layers:      6
+  • Dim Feedforward:     1024
+  • Total Parameters:    2,247,326
+
+⚙️ CONFIGURACIÓN:
+  • Dropout:             0.1
+  • Class Weights:       Desactivado
+  • Label Smoothing:     0.0
+  • Best Epoch:          49
+  • Optimizer:           AdamW (lr=0.0001, weight_decay=0.0001)
+  • Scheduler:           CosineAnnealingWarmRestarts
+
+🎯 VENTAJAS UMAP EMBEDDINGS:
+  • Reducción de dimensionalidad: Preserva estructura local y global
+  • Menor carga computacional
+  • Máscaras por muestra nativas (más preciso)
+  • Mejor generalización con menos features ruidosas
+
+📈 TOP 5 CLASES (F1-Score):
+  1. Adiós\Adiós_20.json  | F1: 0.8667
+  2. Adiós\Adiós_18.json  | F1: 0.7179
+  3. Adiós\Adiós_17.json  | F1: 0.5532
+  4. Adiós\Adiós_21.json  | F1: 0.5161
+  5. Adiós\Adiós_1.json   | F1: 0.2439
+
+================================================================================

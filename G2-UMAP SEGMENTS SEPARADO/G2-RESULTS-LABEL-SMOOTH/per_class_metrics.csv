@@ -1,0 +1,34 @@
+,precision,recall,f1-score,support
+Adiós\Adiós,0.0,0.0,0.0,15.0
+Buenas noches\Buenas noches,0.0,0.0,0.0,2.0
+Buenas tardes\Buenas tardes,0.0,0.0,0.0,4.0
+Buenos días\Buenos días,0.0,0.0,0.0,4.0
+Clase\Clase,0.0,0.0,0.0,3.0
+Comenzar\Comenzar,0.0,0.0,0.0,3.0
+Compañero\Compañero,0.0,0.0,0.0,6.0
+Cuaderno\Cuaderno,0.0,0.0,0.0,4.0
+Cómo está\Cómo está,0.0,0.0,0.0,4.0
+Deberes\Deberes,0.0,0.0,0.0,3.0
+Disculpa\Disculpa,0.0,0.0,0.0,2.0
+Entender\Entender,0.0,0.0,0.0,4.0
+Escribir\Escribir,0.0,0.0,0.0,6.0
+Escuchar\Escuchar,0.0,0.0,0.0,5.0
+Estudiante\Estudiante,0.0,0.0,0.0,6.0
+Examen\Examen,0.0,0.0,0.0,4.0
+Explicar\Explicar,0.0,0.0,0.0,3.0
+Gracias\Gracias,0.16417910447761194,0.6875,0.26506024096385544,16.0
+Hola\Hola,0.5,0.6666666666666666,0.5714285714285714,15.0
+Lección\Lección,0.0,0.0,0.0,4.0
+Leer\Leer,0.0,0.0,0.0,6.0
+Libro\Libro,0.0,0.0,0.0,4.0
+Lápiz\Lápiz,0.0,0.0,0.0,4.0
+Mucho gusto\Mucho gusto,0.0,0.0,0.0,4.0
+Pizarrón\Pizarrón,0.0,0.0,0.0,4.0
+Por favor\Por favor,0.6428571428571429,0.6428571428571429,0.6428571428571429,14.0
+Pregunta\Pregunta,0.0,0.0,0.0,4.0
+Profesor\Profesor,0.06944444444444445,0.38461538461538464,0.11764705882352941,13.0
+Responder\Responder,0.0,0.0,0.0,4.0
+Terminar\Terminar,0.0,0.0,0.0,3.0
+accuracy,0.2023121387283237,0.2023121387283237,0.2023121387283237,0.2023121387283237
+macro avg,0.045882689725973314,0.07938797313797313,0.0532331004691033,173.0
+weighted avg,0.1157782858347952,0.2023121387283237,0.13492372365061353,173.0

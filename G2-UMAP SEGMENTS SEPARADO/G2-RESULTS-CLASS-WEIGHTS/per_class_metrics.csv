@@ -1,0 +1,34 @@
+,precision,recall,f1-score,support
+Adiós\Adiós,0.0,0.0,0.0,15.0
+Buenas noches\Buenas noches,0.0,0.0,0.0,2.0
+Buenas tardes\Buenas tardes,0.0,0.0,0.0,4.0
+Buenos días\Buenos días,0.0,0.0,0.0,4.0
+Clase\Clase,0.0,0.0,0.0,3.0
+Comenzar\Comenzar,0.0,0.0,0.0,3.0
+Compañero\Compañero,0.0,0.0,0.0,6.0
+Cuaderno\Cuaderno,0.0,0.0,0.0,4.0
+Cómo está\Cómo está,0.0,0.0,0.0,4.0
+Deberes\Deberes,0.0,0.0,0.0,3.0
+Disculpa\Disculpa,0.0,0.0,0.0,2.0
+Entender\Entender,0.0,0.0,0.0,4.0
+Escribir\Escribir,0.0,0.0,0.0,6.0
+Escuchar\Escuchar,0.0,0.0,0.0,5.0
+Estudiante\Estudiante,0.047619047619047616,0.8333333333333334,0.09009009009009009,6.0
+Examen\Examen,0.0,0.0,0.0,4.0
+Explicar\Explicar,0.0,0.0,0.0,3.0
+Gracias\Gracias,0.0,0.0,0.0,16.0
+Hola\Hola,0.20588235294117646,0.9333333333333333,0.3373493975903614,15.0
+Lección\Lección,0.0,0.0,0.0,4.0
+Leer\Leer,0.0,0.0,0.0,6.0
+Libro\Libro,0.0,0.0,0.0,4.0
+Lápiz\Lápiz,0.0,0.0,0.0,4.0
+Mucho gusto\Mucho gusto,0.0,0.0,0.0,4.0
+Pizarrón\Pizarrón,0.0,0.0,0.0,4.0
+Por favor\Por favor,0.0,0.0,0.0,14.0
+Pregunta\Pregunta,0.0,0.0,0.0,4.0
+Profesor\Profesor,0.0,0.0,0.0,13.0
+Responder\Responder,0.0,0.0,0.0,4.0
+Terminar\Terminar,0.0,0.0,0.0,3.0
+accuracy,0.10982658959537572,0.10982658959537572,0.10982658959537572,0.10982658959537572
+macro avg,0.008450046685340802,0.058888888888888886,0.014247982922681717,173.0
+weighted avg,0.01950259872735221,0.10982658959537572,0.03237445956298244,173.0
